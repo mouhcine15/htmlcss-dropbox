@@ -19,11 +19,20 @@ header::after {
     display: inline;
     float: left;
     margin: 20px;
-    vertical-align: middle;
 }
 nav ul li {
     display: inline-block;
-    margin: 25px 10px;
+    margin: 25px 20px;
+}
+#prima-nav {
     float: left;
-    vertical-align: middle;
+}
+#seconda-nav {
+    float: right;
+}
+#inizia {
+    color: white;
+    background-color: blue;
+    padding: 5px 20px;
+    margin: 20px 20px;
 }
