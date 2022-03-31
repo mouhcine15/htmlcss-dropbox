@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(90, 93, 241);
+    width: 100%;
+
+    position: fixed;
+}
+header::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+#logo {
+    display: inline;
+    float: left;
+    margin: 20px;
+    vertical-align: middle;
+}
+nav ul li {
+    display: inline-block;
+    margin: 25px 10px;
+    float: left;
+    vertical-align: middle;
+}
