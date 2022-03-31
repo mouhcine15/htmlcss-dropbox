@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
-    background-color: rgb(90, 93, 241);
-    width: 100%;
 
+/* stile header  */
+header {
+    background-color: white;
+    width: 100%;
     position: fixed;
 }
 header::after {
@@ -15,11 +16,13 @@ header::after {
     display: table;
 
 }
+/* stile logo  */
 #logo {
     display: inline;
     float: left;
     margin: 20px;
 }
+/* stile nav  */
 nav ul li {
     display: inline-block;
     margin: 25px 20px;
@@ -32,7 +35,38 @@ nav ul li {
 }
 #inizia {
     color: white;
-    background-color: blue;
+    background-color: rgb(3, 134, 241);
     padding: 5px 20px;
     margin: 20px 20px;
+}
+/* stile jumbotron */
+#jumbotron {
+    background-color: rgb(136, 189, 201);
+    width: 100%;
+    height: 800px;
+}
+/* stile contenuto/titolo */
+.larg-jumbo {
+    width: 80%;
+    margin: auto;
+}
+h1 {
+    font-size: 5.5vw;
+    padding-top: 150px;
+}
+/* stile testo */
+.text-jumbo {
+    width: 30%;
+    margin-top: 40px;
+    font-size: 1.1vw;
+    margin-bottom: 10px;
+}
+#btn-jumbo {
+    background-color: rgb(3, 134, 241);
+    color: white;
+    background-size: auto;
+    width: fit-content;
+    padding: 5px 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
