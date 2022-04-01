@@ -79,11 +79,12 @@ h1 {
 }
 /* stile main */
 main {
-    background-color: blueviolet;
-    height: 2000px;
-    width: 60%;
+    width: 65%;
     margin: auto;
     margin-top: 100px;
+    /* debug */
+    background-color: blueviolet;
+    height: 2500px;
 }
 /* stile prima sezione */
 h2 {
@@ -99,10 +100,11 @@ h2 {
 }
 /* stile dei piani */
 #plans {
-    background-color: blanchedalmond;
     width: 100%;
-    height: 800px;
     margin-top: 5%;
+    /* debug */
+    height: 1500px;
+    background-color: blanchedalmond;
 }
 #plans::after {
     content: "";
@@ -113,20 +115,54 @@ h2 {
     float: left;
     width: 31%;
     margin: 1%;
-    border: 2px solid grey;
+    border: 1px solid grey;
     /* height: 75%;
     background-color: rgb(80, 196, 231); */
 }
-#plans #inferiore {
+/* stile del testo dentro i piani */
+ #plans .sezioni .title-plans {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid grey;
+}
+.text-plans {
+    padding: 30px;
+}
+.text-plans > * {
+    padding: 10px;
+}
+.mese {
+    color: grey;
+    margin-bottom: 30px;
+}
+.link-prova {
     background-color: rgb(80, 196, 231);
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.text-plans hr {
+    width: 30%;
+    margin-top: 25px;
+}
+.text-plans h4 {
+    margin-top: 30px;
+}
+ul {
+    list-style: none;
+}
+.text-plans div ul li {
+    margin: 15px 0 0 0;
+}
+.checkmark {
+    color: rgb(80, 196, 231);
+}
+#plans #inferiore {
     border: 1px solid grey;
     margin: 1%;
     width: 97%;
     height: 20%;
     float: left;
 }
-/* stile del testo dentro i piani */
- #plans .sezioni .title-plans {
-    text-align: center;
-    border-bottom: 1px solid grey;
-}
+
