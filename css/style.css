@@ -79,7 +79,7 @@ h1 {
 }
 /* stile main */
 main {
-    width: 65%;
+    width: 70%;
     margin: auto;
     margin-top: 100px;
     /* debug */
@@ -103,8 +103,8 @@ h2 {
     width: 100%;
     margin-top: 5%;
     /* debug */
-    height: 1500px;
-    background-color: blanchedalmond;
+    /* height: 1500px; */
+    /* background-color: blanchedalmond; */
 }
 #plans::after {
     content: "";
@@ -113,12 +113,13 @@ h2 {
 }
 #plans .sezioni {
     float: left;
-    width: 31%;
-    margin: 1%;
+    width: 31.5%;
+    margin-right: 1%;
     border: 1px solid grey;
     /* height: 75%;
     background-color: rgb(80, 196, 231); */
 }
+
 /* stile del testo dentro i piani */
 .title-plans {
     text-align: center;
@@ -160,7 +161,8 @@ ul {
 }
 #plans #inferiore {
     border: 1px solid grey;
-    margin: 1%;
+    margin-right: 1%;
+    margin-top: 2%;
     width: 97%;
     height: 20%;
     float: left;
@@ -181,4 +183,31 @@ ul {
 #btn-cont-ufficio {
     margin-top: 7px;
     padding: 10px;
+}
+
+/* stile seconda sezione  */
+#seconda-sezione {
+    margin-top: 10%;
+}
+#seconda-sezione::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#seconda-sezione > div {
+    width: 49%;
+    /* debug */
+    /* background-color: brown; */
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.partedx, .partesx {
+    float: left;
+}
+#seconda-sezione #btn-trovapartner {
+    background-color: white;
+    width: fit-content;
+    border: 2px solid black;
 }
