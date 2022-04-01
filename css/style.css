@@ -11,6 +11,7 @@ header {
     background-color: white;
     width: 100%;
     position: fixed;
+    z-index: 500;
 }
 header::after {
     content: "";
@@ -45,12 +46,13 @@ nav ul li {
 #jumbotron {
     background-color: rgb(136, 189, 201);
     width: 100%;
-    height: fit-content;
+    height: 625px;
 }
 /* stile contenuto/titolo */
 .larg-jumbo {
     width: 80%;
     margin: auto;
+    position: relative;
 }
 h1 {
     font-size: 5.3vw;
@@ -74,8 +76,10 @@ h1 {
     margin-bottom: 10px;
 }
 #img-jumbo {
-    transform: scale(0.5);
-    display: inline;
+    transform: scale(0.6);
+    position: absolute;
+    top: 35%;
+    right: -20%;
 }
 /* stile main */
 main {
