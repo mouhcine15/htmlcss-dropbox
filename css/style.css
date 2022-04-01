@@ -120,7 +120,7 @@ h2 {
     background-color: rgb(80, 196, 231); */
 }
 /* stile del testo dentro i piani */
- #plans .sezioni .title-plans {
+.title-plans {
     text-align: center;
     padding: 5px;
     border-bottom: 1px solid grey;
@@ -165,4 +165,20 @@ ul {
     height: 20%;
     float: left;
 }
-
+#inferiore::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#partesx {
+    float: left;
+    width: 70%;
+}
+#cont-ufficio {
+    float: left;
+    width: 30%;
+}
+#btn-cont-ufficio {
+    margin-top: 7px;
+    padding: 10px;
+}
