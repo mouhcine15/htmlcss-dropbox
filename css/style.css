@@ -392,30 +392,40 @@ img {
 
  /* stile footer  */
  footer {
+     background-color: black;
+     color: white;
      margin-top: 10%;
      width: 100%;
+     height: 700px;
  }
  footer > div {
      width: 80%;
      margin: auto;
-     background-color: aqua;
-     height: 500px;
  }
- #sez-foot ::after{
+ #sez-foot::after{
      content: "";
      display: table;
      clear: both;
  }
+ #lista-foot {
+     float: left;
+     margin: 0 3%;
+     margin-bottom: 10%;
+ }
  #sez-foot {
      padding-top: 5%;
  }
- #lista-foot {
-     display: inline-block;
-     float: left;
- }
  #lista-foot ul li h3 {
-    margin-bottom: 2%;
+    margin-bottom: 10%;
  }
  #lista-foot ul li {
-     margin-bottom: 1%;
+     margin-bottom: 6%;
  }
+#sez-foot hr {
+    margin-left: 3%;
+    width: 10%;
+}
+#icon-foot{
+    color: lightslategray;
+    margin: 2% 3%;
+}
