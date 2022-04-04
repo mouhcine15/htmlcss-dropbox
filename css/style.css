@@ -76,6 +76,10 @@ h1 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+#freccia {
+    font-size: 3vw;
+    margin-top: 5%;
+}
 #img-jumbo {
     transform: scale(0.6);
     position: absolute;
@@ -150,6 +154,7 @@ h2 {
     color: grey;
     margin-bottom: 30px;
 }
+
 .link-prova {
     background-color: rgb(80, 196, 231);
     color: white;
